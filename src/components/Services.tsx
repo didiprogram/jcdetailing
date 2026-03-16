@@ -1,5 +1,15 @@
 const services = [
   {
+    title: "Deep Exterior Wash",
+    subtitle: "Exterior Detail",
+    description: "Wheel cleaning, pre-wash, contact wash, decontamination of the paint, wax",
+    prices: [
+      { type: "Sedans", price: "$80" },
+      { type: "Minivans/SUVs", price: "$100" },
+      { type: "Trucks & Bigger", price: "$115" },
+    ],
+  },
+  {
     title: "Express Refresh",
     subtitle: "Basic Wash",
     description: "Quick interior cleaning, vacuum, wipe down, windows, quick exterior wash",
