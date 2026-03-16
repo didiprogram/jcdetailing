@@ -11,7 +11,8 @@ const Contact = () => {
           <div className="border border-border bg-card p-8 text-center card-hover">
             <Phone className="w-8 h-8 text-primary mx-auto mb-4" />
             <h3 className="font-display text-lg font-bold text-foreground mb-2">Call / Text</h3>
-            <p className="text-muted-foreground font-body">Contact us for a quote</p>
+            <p className="text-muted-foreground font-body">
+</p>
           </div>
           <div className="border border-border bg-card p-8 text-center card-hover">
             <MapPin className="w-8 h-8 text-primary mx-auto mb-4" />
@@ -27,8 +28,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
 };
 
 export default Contact;
