@@ -71,7 +71,7 @@ const Services = () => {
           From a quick refresh to a full resurrection — we've got your ride covered.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto mb-16 [&>*:last-child:nth-child(odd)]:md:col-span-2 [&>*:last-child:nth-child(odd)]:md:max-w-[calc(50%-0.75rem)] [&>*:last-child:nth-child(odd)]:md:mx-auto">
           {services.map((service) => (
             <div
               key={service.title}
