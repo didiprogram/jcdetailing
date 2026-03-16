@@ -11,8 +11,7 @@ const Contact = () => {
           <div className="border border-border bg-card p-8 text-center card-hover">
             <Phone className="w-8 h-8 text-primary mx-auto mb-4" />
             <h3 className="font-display text-lg font-bold text-foreground mb-2">Call / Text</h3>
-            <p className="text-muted-foreground font-body">
-</p>
+            <p className="text-muted-foreground font-body">+1 (321) 830-0516</p>
           </div>
           <div className="border border-border bg-card p-8 text-center card-hover">
             <MapPin className="w-8 h-8 text-primary mx-auto mb-4" />
