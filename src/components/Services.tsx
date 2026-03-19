@@ -42,7 +42,7 @@ const services = [
   {
     title: "Ultimate Detail",
     subtitle: "Shop Only — Not Mobile",
-    description: "Deep vacuum, wipe down all panels, plastic restoration & protection, condition seats, steam cleaning, windows, extraction",
+    description: "Our most advanced service for full restoration and showroom-level results. Seats are removed for complete access. Deep cleaning, shampooing, extraction, steam cleaning, and stain removal throughout. Wheels are removed for a full deep clean inside and out, plus undercarriage detailing. Includes pre-wash, contact wash, paint decontamination, paint correction if needed, protective wax or sealant, and full engine bay detail. Built for those who want their vehicle restored to its absolute best.",
     prices: [
       { type: "All Cars", price: "$445" },
       { type: "Big Cars (Cargo Vans)", price: "$450" },
