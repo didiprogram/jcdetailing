@@ -2,7 +2,7 @@ const services = [
   {
     title: "Deep Exterior Wash",
     subtitle: "Exterior Detail",
-    description: "Wheel cleaning, pre-wash, contact wash, decontamination of the paint, wax",
+    description: "Keep your vehicle looking clean and well-maintained. We perform a quick interior vacuum, a light wipe-down of all panels, and streak-free window cleaning. On the exterior, your vehicle receives a pre-rinse followed by a safe contact wash, along with tire cleaning and shine. Perfect for weekly or bi-weekly maintenance.",
     prices: [
       { type: "Sedans", price: "$80" },
       { type: "Minivans/SUVs", price: "$100" },
@@ -12,7 +12,7 @@ const services = [
   {
     title: "Express Refresh",
     subtitle: "Basic Wash",
-    description: "Quick interior cleaning, vacuum, wipe down, windows, quick exterior wash",
+    description: "Designed for vehicles with heavy dirt, stains, or buildup. We begin with a deep vacuum, followed by shampooing and extraction of carpets and seats, steam cleaning to sanitize surfaces, stain treatment, and panel restoration with plastic dressing. Interior windows are cleaned for a spotless finish. Ideal for neglected interiors or vehicles that need a full reset.",
     prices: [
       { type: "Sedans", price: "$50" },
       { type: "Trucks", price: "$100" },
@@ -22,7 +22,7 @@ const services = [
   {
     title: "Interior Resurrection",
     subtitle: "Deep Interior Detail",
-    description: "Deep vacuum, wipe down all panels, plastic restoration and protection, extraction, steam cleaning, windows, leather conditioning",
+    description: "Designed for vehicles with heavy dirt, stains, or buildup. We begin with a deep vacuum, followed by shampooing and extraction of carpets and seats, steam cleaning to sanitize surfaces, stain treatment, and panel restoration with plastic dressing. Interior windows are cleaned for a spotless finish. Ideal for neglected interiors or vehicles that need a full reset.",
     prices: [
       { type: "Sedans", price: "$150" },
       { type: "SUVs", price: "$200" },
@@ -32,7 +32,7 @@ const services = [
   {
     title: "Complete Detail",
     subtitle: "Interior & Exterior",
-    description: "Deep vacuum, wipe down all panels, stain removal, steam cleaning, leather condition the seats, pet hair removal",
+    description: "A complete transformation for both interior and exterior. Inside: deep vacuum, full wipe-down, steam cleaning, and extraction of carpets and seats with interior protection and crystal-clear windows. Outside: engine bay, wheel and tire cleaning, pre-wash, contact wash, paint decontamination, and a high-quality wax for enhanced gloss and protection. Perfect for a full refresh.",
     prices: [
       { type: "Sedans", price: "$220" },
       { type: "SUVs", price: "$235" },
@@ -42,7 +42,7 @@ const services = [
   {
     title: "Ultimate Detail",
     subtitle: "Shop Only — Not Mobile",
-    description: "Deep vacuum, wipe down all panels, plastic restoration & protection, condition seats, steam cleaning, windows, extraction",
+    description: "Our most advanced service for full restoration and showroom-level results. Seats are removed for complete access. Deep cleaning, shampooing, extraction, steam cleaning, and stain removal throughout. Wheels are removed for a full deep clean inside and out, plus undercarriage detailing. Includes pre-wash, contact wash, paint decontamination, paint correction if needed, protective wax or sealant, and full engine bay detail. Built for those who want their vehicle restored to its absolute best.",
     prices: [
       { type: "All Cars", price: "$445" },
       { type: "Big Cars (Cargo Vans)", price: "$450" },
