@@ -73,7 +73,7 @@ const Gallery = () => {
             <div
               key={index}
               onClick={() => setSelectedImage(item.src)}
-              className="group relative overflow-hidden rounded-sm border border-border cursor-pointer transition-all duration-500 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10"
+              className="group relative overflow-hidden rounded-sm border border-border cursor-pointer transition-all duration-500 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10 w-full sm:w-[calc(50%-0.625rem)] lg:w-[calc(33.333%-0.875rem)]"
             >
               <img
                 src={item.src}
