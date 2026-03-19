@@ -32,7 +32,7 @@ const services = [
   {
     title: "Complete Detail",
     subtitle: "Interior & Exterior",
-    description: "Deep vacuum, wipe down all panels, stain removal, steam cleaning, leather condition the seats, pet hair removal",
+    description: "A complete transformation for both interior and exterior. Inside: deep vacuum, full wipe-down, steam cleaning, and extraction of carpets and seats with interior protection and crystal-clear windows. Outside: engine bay, wheel and tire cleaning, pre-wash, contact wash, paint decontamination, and a high-quality wax for enhanced gloss and protection. Perfect for a full refresh.",
     prices: [
       { type: "Sedans", price: "$220" },
       { type: "SUVs", price: "$235" },
