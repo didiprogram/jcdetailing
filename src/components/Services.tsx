@@ -12,7 +12,7 @@ const services = [
   {
     title: "Express Refresh",
     subtitle: "Basic Wash",
-    description: "Quick interior cleaning, vacuum, wipe down, windows, quick exterior wash",
+    description: "Designed for vehicles with heavy dirt, stains, or buildup. We begin with a deep vacuum, followed by shampooing and extraction of carpets and seats, steam cleaning to sanitize surfaces, stain treatment, and panel restoration with plastic dressing. Interior windows are cleaned for a spotless finish. Ideal for neglected interiors or vehicles that need a full reset.",
     prices: [
       { type: "Sedans", price: "$50" },
       { type: "Trucks", price: "$100" },
