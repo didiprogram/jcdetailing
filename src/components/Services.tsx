@@ -2,7 +2,7 @@ const services = [
   {
     title: "Deep Exterior Wash",
     subtitle: "Exterior Detail",
-    description: "Wheel cleaning, pre-wash, contact wash, decontamination of the paint, wax",
+    description: "Keep your vehicle looking clean and well-maintained. We perform a quick interior vacuum, a light wipe-down of all panels, and streak-free window cleaning. On the exterior, your vehicle receives a pre-rinse followed by a safe contact wash, along with tire cleaning and shine. Perfect for weekly or bi-weekly maintenance.",
     prices: [
       { type: "Sedans", price: "$80" },
       { type: "Minivans/SUVs", price: "$100" },
