@@ -22,7 +22,7 @@ const services = [
   {
     title: "Interior Resurrection",
     subtitle: "Deep Interior Detail",
-    description: "Deep vacuum, wipe down all panels, plastic restoration and protection, extraction, steam cleaning, windows, leather conditioning",
+    description: "Designed for vehicles with heavy dirt, stains, or buildup. We begin with a deep vacuum, followed by shampooing and extraction of carpets and seats, steam cleaning to sanitize surfaces, stain treatment, and panel restoration with plastic dressing. Interior windows are cleaned for a spotless finish. Ideal for neglected interiors or vehicles that need a full reset.",
     prices: [
       { type: "Sedans", price: "$150" },
       { type: "SUVs", price: "$200" },
