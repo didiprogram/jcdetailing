@@ -19,7 +19,7 @@ const Contact = () => {
           <p className="text-muted-foreground font-body text-sm">Passionate about making your ride shine</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
           <div className="border border-border bg-card p-8 text-center card-hover">
             <Phone className="w-8 h-8 text-primary mx-auto mb-4" />
             <h3 className="font-display text-lg font-bold text-foreground mb-2">Call / Text</h3>
