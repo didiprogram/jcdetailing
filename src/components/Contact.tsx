@@ -1,4 +1,4 @@
-import { Phone, MapPin, Clock } from "lucide-react";
+import { Phone, MapPin } from "lucide-react";
 import ownerImg from "@/assets/owner.jpeg";
 
 const Contact = () => {
@@ -19,7 +19,7 @@ const Contact = () => {
           <p className="text-muted-foreground font-body text-sm">Passionate about making your ride shine</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
           <div className="border border-border bg-card p-8 text-center card-hover">
             <Phone className="w-8 h-8 text-primary mx-auto mb-4" />
             <h3 className="font-display text-lg font-bold text-foreground mb-2">Call / Text</h3>
@@ -30,12 +30,6 @@ const Contact = () => {
             <h3 className="font-display text-lg font-bold text-foreground mb-2">Location</h3>
             <p className="text-muted-foreground font-body">Orlando, FL</p>
             <p className="text-muted-foreground font-body text-sm">Mobile & Shop Service</p>
-          </div>
-          <div className="border border-border bg-card p-8 text-center card-hover">
-            <Clock className="w-8 h-8 text-primary mx-auto mb-4" />
-            <h3 className="font-display text-lg font-bold text-foreground mb-2">Hours</h3>
-            <p className="text-muted-foreground font-body">Mon–Sat: 8AM–6PM</p>
-            <p className="text-muted-foreground font-body text-sm">Sunday: By Appointment</p>
           </div>
         </div>
       </div>

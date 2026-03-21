@@ -4,6 +4,7 @@ import Services from "@/components/Services";
 import Gallery from "@/components/Gallery";
 import Policies from "@/components/Policies";
 import Contact from "@/components/Contact";
+import BookNow from "@/components/BookNow";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
       <Gallery />
       <Policies />
       <Contact />
+      <BookNow />
       <Footer />
     </div>
   );
