@@ -30,7 +30,7 @@ const BookNow = () => {
           onClick={() => setOpen(false)}
         >
           <div
-            className="relative w-full max-w-3xl h-[80vh] mx-4 bg-card border border-border rounded-lg overflow-hidden shadow-2xl"
+            className="relative w-full max-w-3xl h-[80vh] mx-4 bg-white border border-border rounded-lg overflow-hidden shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
             <button
