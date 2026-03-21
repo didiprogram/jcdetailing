@@ -10,7 +10,7 @@ const navLinks = [
   { label: "Contact", href: "#contact" },
 ];
 
-const Navbar = () => {
+const Navbar = ({ onBookNow }: { onBookNow: () => void }) => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -33,12 +33,12 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
-          <a
-            href="#contact"
+          <button
+            onClick={onBookNow}
             className="bg-primary text-primary-foreground px-5 py-2 font-display text-sm tracking-wider uppercase hover:bg-primary/80 transition-colors"
           >
             Book Now
-          </a>
+          </button>
         </div>
 
         <button className="md:hidden text-foreground" onClick={() => setOpen(!open)}>
@@ -58,13 +58,12 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
-          <a
-            href="#contact"
-            onClick={() => setOpen(false)}
-            className="block mt-2 bg-primary text-primary-foreground px-5 py-2 font-display text-sm tracking-wider uppercase text-center"
+          <button
+            onClick={() => { setOpen(false); onBookNow(); }}
+            className="block w-full mt-2 bg-primary text-primary-foreground px-5 py-2 font-display text-sm tracking-wider uppercase text-center"
           >
             Book Now
-          </a>
+          </button>
         </div>
       )}
     </nav>
