@@ -31,12 +31,6 @@ const Contact = () => {
             <p className="text-muted-foreground font-body">Orlando, FL</p>
             <p className="text-muted-foreground font-body text-sm">Mobile & Shop Service</p>
           </div>
-          <div className="border border-border bg-card p-8 text-center card-hover">
-            <Clock className="w-8 h-8 text-primary mx-auto mb-4" />
-            <h3 className="font-display text-lg font-bold text-foreground mb-2">Hours</h3>
-            <p className="text-muted-foreground font-body">Mon–Sat: 8AM–6PM</p>
-            <p className="text-muted-foreground font-body text-sm">Sunday: By Appointment</p>
-          </div>
         </div>
       </div>
     </section>);
