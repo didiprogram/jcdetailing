@@ -1,4 +1,4 @@
-import { Phone, MapPin, Clock } from "lucide-react";
+import { Phone, MapPin } from "lucide-react";
 import ownerImg from "@/assets/owner.jpeg";
 
 const Contact = () => {
