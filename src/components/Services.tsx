@@ -36,7 +36,7 @@ const services = [
     prices: [
       { type: "Sedans", price: "$220" },
       { type: "SUVs", price: "$235" },
-      { type: "Trucks/Cargo Vans", price: "$220–$225" },
+      { type: "Trucks/Cargo Vans", price: "$250–$300" },
     ],
   },
   {
