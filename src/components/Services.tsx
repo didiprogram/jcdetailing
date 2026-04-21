@@ -55,9 +55,7 @@ const extras = [
   { name: "Wax", price: "$50" },
   { name: "Pet Hair Removal", price: "$50" },
   { name: "Headlight Restoration", price: "$50" },
-  { name: "Window Tint Removal", price: "$60" },
   { name: "Paint Correction", price: "$200–$400" },
-  { name: "Clay Cleanse", price: "$20" },
 ];
 
 const Services = () => {
